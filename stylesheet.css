@@ -1,0 +1,92 @@
+#nav {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+
+#welcome {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+/* Add some content at the bottom of the video/page */
+
+.content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.938);
+    color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    height: 5%
+}
+
+#nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+#nav a {
+    float: left;
+    color: #f2f2f2;
+    border: solid white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    background-color: black;
+    margin-left: 5%;
+}
+
+
+/* Change the color of links on hover */
+
+#nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Add a color to the active/current link */
+
+#nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/* Style the button used to pause/play the video */
+
+
+/* #myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+} */
