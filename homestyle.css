@@ -136,10 +136,16 @@ a {
     font-size: 25px;
 }
 
-#Introduction iframe {
-    width: 100vw;
-    border: none;
-    height: 100vh;
+#Introduction {
+    overflow: scroll;
+    text-align: left;
+    width: 98%;
+    height: 50%;
+    font-size: 20px;
+}
+
+#Introduction img {
+    float: right;
 }
 
 .src {
