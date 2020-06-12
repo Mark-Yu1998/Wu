@@ -28,7 +28,7 @@ a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-    transition-duration: 0.4s;
+    transition-duration: 0.3s;
 }
 
 
@@ -42,10 +42,9 @@ a {
 
 /* Add a color to the active/current link */
 
-#nav a.active {
-    /* background-color: White;
-    color: black */
-    border: dashed white;
+#nav a:active {
+    background-color: White;
+    color: black;
 }
 
 #hback {
@@ -135,4 +134,16 @@ a {
 
 #guidesec p {
     font-size: 25px;
+}
+
+#Introduction iframe {
+    width: 100vw;
+    border: none;
+    height: 100vh;
+}
+
+.src {
+    width: 100vw;
+    height: 100vh;
+    border: none;
 }
